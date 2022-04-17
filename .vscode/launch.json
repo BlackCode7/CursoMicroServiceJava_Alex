@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavapacoteApplication",
+            "request": "launch",
+            "mainClass": "br.com.javapacote.javapacote.JavapacoteApplication",
+            "projectName": "javapacote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CursoSpringBootApplication<curso_spring_boot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.springboot.curso_spring_boot.CursoSpringBootApplication",
+            "projectName": "curso_spring_boot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
